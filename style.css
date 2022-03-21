@@ -1,0 +1,34 @@
+body {
+  background-color: #cccc;
+}
+
+.selections {
+  display: flex;
+  justify-content: center;
+}
+
+.selection {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  transition: 400ms;
+}
+
+.selection:hover {
+  transform: scale(1.1);
+}
+
+.results {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+
+.result-score {
+  margin-left: 10px;
+  font-size: 15px;
+  color: #333;
+}
